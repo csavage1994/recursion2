@@ -59,7 +59,6 @@ var stringifyJSON = function(obj) {
 
 		  			stringified += '"' + key + '":';
 		  			stringified += stringifyJSON(value);
-		  			console.log(Object.keys(obj));
 		  			if(key !== Object.keys(obj)[Object.keys(obj).length-1]){
 		  				stringified += ',';
 		  			}
